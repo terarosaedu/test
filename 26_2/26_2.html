@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TERAROSA 교육 & 서비스 소식지 [26년-2]</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"/>
+<link rel="stylesheet" href="26_2.css">
+
+  
+</head>
+<body>
+
+  <!-- 최상단 로고랑 제목 있는 부분 -->
+<header class="header-wrap">
+  <div class="header-top">
+    <button class="archive-btn" onclick="toggleArchive()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      소식지 목록
+    </button>
+    
+    <div class="archive-panel" id="archivePanel">
+  <div class="archive-panel-title">Archive</div>
+  
+  <div class="archive-item" onclick="scrollToTop()" style="cursor: pointer;">
+    <span class="a-dot"></span>
+    VOL. 26-2
+  </div>
+  
+  <div class="archive-item" onclick="location.href='../26_1/26_1.html'" style="cursor: pointer;">
+    <span class="a-dot" style="background-color: transparent; border: 1px solid #ccc;"></span>
+    VOL. 26-1
+  </div>
+</div>
+    
+    <img class="logo-img" src="../img/logo.png" alt="TERAROSA" />
+    <div class="header-right">
+      <div class="issue">VOL. 26-2</div>
+      <div class="date">2026 V2 · 교육서비스팀</div>
+    </div>
+  </div>
+  
+  <div class="header-title-band">
+    <h1>교육 & 서비스 소식지</h1>
+    <p>EDUCATION & SERVICE NEWSLETTER · 2026 MAR-APR</p>
+  </div>
+</header>
+
+
+<!-- 메뉴바 -->
+
+<nav class="nav-bar">
+  <div class="nav-item active" onclick="scrollToSection('article', this)">아티클</div>
+  <div class="nav-item" onclick="scrollToSection('report', this)">교육 리포트</div>
+  <div class="nav-item" onclick="scrollToSection('calendar', this)">교육 캘린더</div>
+</nav>
+
+<!-- 내용 있는 부분 -->
+
+<main class="main">
+
+  <!-- !!!!!!!!과장님!!!!!!!!!! 이 부분이 아티클 부분입니다!!!!!!!!! 여기만 나중에 수정하면 됨!!!!!!!! -->
+  <section id="article">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">01 · Article</div>
+        <div class="sec-head-ko">아티클</div>
+      </div>
+    </div>
+
+  <div class="article-card fade-up d1">
+
+  <div class="article-content-wrapper">
+    <div class="article-meta-bar">
+      <span class="a-meta-tag">VOL.26-2</span>
+      <span class="a-meta-sep">·</span>
+      <span class="a-meta-cat">Key Insight</span>
+    </div>
+
+    <h2 class="article-title">"사과와 오렌지를 비교하지 마라"<br>CoE가 심판대를 셋으로 쪼갠 이유</h2>
+    
+    <p class="article-lead">
+      2024년부터 Cup of Excellence(CoE)의 풍경이 바뀌었다. 1등부터 30등까지 한 줄로 세우던 순위표가 사라지고, 대신 세 개의 시상대가 등장했다. 이 변화의 핵심은 '공정성'이다. 서로 다른 아름다움을 가진 커피들을 한 테이블에서 겨루게 했던 과거와의 작별이다.
+    </p>
+
+    <div class="quote-box">
+      <div class="quote-text">
+        "우리는 커피 가공의 진화를 반영해야 했습니다.<br>서로 다른 특성을 가진 커피를 분리함으로써,생산자와 바이어 모두에게 더 나은 기회를 제공할 수 있습니다."
+      </div>
+      <div class="quote-caption">ACE Executive Director, Erwin Mierisch</div>
+    </div>
+
+    <p class="article-text">
+      심사위원들 사이에서 오랫동안 제기되어 온 딜레마가 있었다. 바로 <strong>'강렬함(Intensity)과 우아함(Elegance)의 싸움'</strong>이다.
+    </p>
+    
+    <p class="article-text">
+      같은 테이블 위에 깨끗하고 섬세한 '워시드(Washed)' 커피와, 묵직한 단맛과 과일 향이 폭발하는 '내추럴(Natural)' 혹은 개성있고 독특한 풍미의 '익스페리멘탈(Experimental)' 커피가 놓였다고 가정해보자. 자극적인 맛에 코와 혀가 노출되면, 그 뒤에 맛보는 워시드 커피의 섬세한 뉘앙스는 상대적으로 밋밋하게 느껴지기 쉽다.
+    </p>
+
+    <div class="comparison-section">
+      <div class="comparison-card">
+        <div class="c-title">BEFORE</div>
+        <div class="c-desc">
+          <strong>기울어진 운동장</strong><br>
+          내추럴이나 무산소 발효 커피의 강렬한 단맛과 향미가 심사관의 미각을 자극해, 상대적으로 은은한 워시드 커피가 저평가되는 경향이 있었다.
+        </div>
+      </div>
+      <div class="comparison-card" style="background:#FEF7E0; border-color:#FCE8B2;">
+        <div class="c-title">AFTER</div>
+        <div class="c-desc">
+          <strong>동등한 기회 (Categorization)</strong><br>
+          워시드는 워시드끼리, 내추럴은 내추럴끼리 경쟁한다. '얼마나 자극적인가'가 아니라, '각 가공 방식의 완성도가 얼마나 높은가'를 평가받는다.
+        </div>
+      </div>
+    </div>
+
+    <p class="article-text">
+      Alliance for Coffee Excellence(ACE)는 이 문제를 해결하기 위해 CoE에'카테고리화'를 도입했다. 이것은 단순히 순위를 나누는 행정적인 절차가 아니다. <strong>"다양한 종류의 완벽함이 존재한다"</strong>는 것을 공식적으로 인정하는 선언이다. 덕분에 유행하는 새로운 가공을 하지 않아도, 기본에 충실한 농부들이 다시금 스포트라이트를 받을 수 있는 길이 열렸다.
+    </p>
+
+    <p class="article-text" style="margin-top: 40px;">
+      <strong>국가별 적용: 같은 철학, 다른 기준</strong><br>
+      모든 나라가 똑같은 카테고리를 쓰는 것은 아니다. '비교 불가능한 것을 나누어 심사한다'는 철학 아래, 각 산지는 자신들에게 가장 적합한 분류 기준을 적용하고 있다.
+    </p>
+<div class="data-section-title">TYPE A. 품종 중심 (Variety Focus)</div>
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th style="width: 20%">국가 (시행)</th>
+        <th style="width: 26%">Category 1</th>
+        <th style="width: 27%">Category 2</th>
+        <th style="width: 27%">Category 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="country-cell">과테말라<span class="year-tag">2024~</span></td>
+        <td>이국적 품종 + 워시드<br><span style="font-size:11px; color:#5f6368">(Exotic Washed)</span></td>
+        <td>이국적 품종 + 내추럴/허니<br><span style="font-size:11px; color:#5f6368">(Exotic Natural)</span></td>
+        <td>전통적인 품종<br><span style="font-size:11px; color:#5f6368">(One of a Kind)</span></td>
+      </tr>
+      <tr>
+        <td class="country-cell">온두라스<span class="year-tag new-tag">2025~</span></td>
+        <td>전통적인 품종<br><span style="font-size:11px; color:#5f6368">(Traditional)</span></td>
+        <td><strong>파라이네마 품종</strong><br><span style="font-size:11px; color:#5f6368">(Parainema)</span></td>
+        <td>이국적 품종<br><span style="font-size:11px; color:#5f6368">(Exotic)</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="data-section-title">TYPE B. 가공 방식 중심 (Processing Focus)</div>
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th style="width: 20%">국가 (시행)</th>
+        <th style="width: 26%">Category 1</th>
+        <th style="width: 27%">Category 2</th>
+        <th style="width: 27%">Category 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="country-cell">브라질<span class="year-tag">2024~</span></td>
+        <td rowspan="2" style="vertical-align:middle; border-bottom:1px solid #E8EAED;">워시드, 허니</td>
+        <td rowspan="2" style="vertical-align:middle; border-bottom:1px solid #E8EAED;">내추럴</td>
+        <td rowspan="2" style="vertical-align:middle; border-bottom:1px solid #E8EAED;">새로운 가공 (Exp)</td>
+      </tr>
+      <tr>
+        <td class="country-cell">엘살바도르<span class="year-tag">2024~</span></td>
+      </tr>
+      <tr>
+        <td class="country-cell">코스타리카<span class="year-tag">2024~</span></td>
+        <td>워시드</td>
+        <td>세미 워시드, 허니, 내추럴</td>
+        <td>새로운 가공 (Exp)</td>
+      </tr>
+      <tr>
+        <td class="country-cell">멕시코<span class="year-tag">2024~</span></td>
+        <td>전통적인 워시드</td>
+        <td>전통적인 허니, 내추럴</td>
+        <td>실험적인 가공 (Exp)</td>
+      </tr>
+      <tr>
+        <td class="country-cell">니카라과<span class="year-tag new-tag">2025~</span></td>
+        <td>워시드</td>
+        <td>내추럴, 허니</td>
+        <td><span style="color:#9AA0A6">- (2개 부문 운영)</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    <p class="article-text">
+      결국 이 모든 변화는 컵 한 잔의 다양성을 지키기 위함이다. <br>
+      소비자는 자신의 취향에 맞는 '최고의 사과' 혹은 '최고의 오렌지'를 더 명확한 기준 아래 만날 수 있게 되었다.
+    </p>
+
+    <hr class="article-hr"/>
+
+    <div class="article-author">
+      <div class="author-icon">☕</div>
+      <div>
+        <div class="author-name">TERAROSA 교육서비스팀</div>
+        <div class="author-role">Updated MAY 2026</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--참고 기사 https://perfectdailygrind.com/2023/11/cup-of-excellence-rule-changes/  -->
+
+  </section>
+
+  <!-- 이게 섹션 사이사이에 있는 선 -->
+  <hr class="sec-divider" />
+
+ <!-- 이 부분이 교육리포트입니다. 상세 숫자 및 내용은 js 파일로 수정합니다 -->
+
+  <section id="report">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">02 · Education Report</div>
+        <div class="sec-head-ko">교육 리포트</div>
+      </div>
+    </div>
+    <div class="report-intro fade-up d1">2026 JAN~APR · 5개 과정</div>
+
+
+<div class="stat-grid" id="statGrid"></div>
+
+<div class="summary-row">
+  <div class="summary-label">2026 JAN~APR TOTAL COMPLETIONS</div>
+  <div class="summary-total">총 171명 수료 <small>점장/세컨 교육 수료자 50인 포함</small></div>
+</div>
+
+
+  </section>
+
+  <hr class="sec-divider" />
+
+  <!-- 3. 이 부분이 캘린더입니다. 구글 캘린더만 수정하면 됩니다. -->
+
+  <section id="calendar">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">03 · Education Calendar (Upcoming Events)</div>
+        <div class="sec-head-ko">교육 캘린더</div>
+      </div>
+    </div>
+
+<!-- 첫 화면에 띄울 월을 바꾸고 싶으면 여기서 dates=뒷부분의 일/월을 바꾸면 됩니다. -->
+<div class="cal-frame">
+  <iframe id="calIframe"
+    src="https://calendar.google.com/calendar/embed?src=terarosaeducation%40gmail.com&ctz=Asia%2FSeoul&mode=MONTH&dates=20260501%2F20260531"
+    title="TERAROSA 교육 캘린더"
+    frameborder="0"
+    scrolling="no"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+  </section>
+
+</main>
+
+<!-- TOP 버튼 둥둥 띄운 것 -->
+<button class="top-btn" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="맨 위로">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+  <span>TOP</span>
+</button>
+
+<!-- 바닥 부분 -->
+
+<footer class="footer">
+  <img class="footer-logo" src="../img/logo.png" alt="TERAROSA" />
+  <div class="footer-text">
+    교육&서비스 소식지 · VOL.26-2<br/>
+    © 2026 TERAROSA Education Service Team
+  </div>
+</footer>
+
+<script src="26_2.js"></script>
+</body>
+</html>
