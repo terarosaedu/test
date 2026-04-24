@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TERAROSA 교육 & 서비스 소식지 [26년-2]</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"/>
+<link rel="stylesheet" href="26_2.css">
+
+  
+</head>
+<body>
+
+  <!-- 최상단 로고랑 제목 있는 부분 -->
+<header class="header-wrap">
+  <div class="header-top">
+    <button class="archive-btn" onclick="toggleArchive()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      소식지 목록
+    </button>
+    
+    <div class="archive-panel" id="archivePanel">
+  <div class="archive-panel-title">Archive</div>
+  
+  <div class="archive-item" onclick="scrollToTop()" style="cursor: pointer;">
+    <span class="a-dot"></span>
+    VOL. 26-2
+  </div>
+  
+  <div class="archive-item" onclick="location.href='../26_1/26_1.html'" style="cursor: pointer;">
+    <span class="a-dot" style="background-color: transparent; border: 1px solid #ccc;"></span>
+    VOL. 26-1
+  </div>
+</div>
+    
+    <img class="logo-img" src="../img/logo.png" alt="TERAROSA" />
+    <div class="header-right">
+      <div class="issue">VOL. 26-2</div>
+      <div class="date">2026 V2 · 교육서비스팀</div>
+    </div>
+  </div>
+  
+  <div class="header-title-band">
+    <h1>교육 & 서비스 소식지</h1>
+    <p>EDUCATION & SERVICE NEWSLETTER · 2026 MAR-APR</p>
+  </div>
+</header>
+
+
+<!-- 메뉴바 -->
+
+<nav class="nav-bar">
+  <div class="nav-item active" onclick="scrollToSection('article', this)">아티클</div>
+  <div class="nav-item" onclick="scrollToSection('report', this)">교육 리포트</div>
+  <div class="nav-item" onclick="scrollToSection('calendar', this)">교육 캘린더</div>
+</nav>
+
+<!-- 내용 있는 부분 -->
+
+<main class="main">
+
+  <!-- !!!!!!!!과장님!!!!!!!!!! 이 부분이 아티클 부분입니다!!!!!!!!! 여기만 나중에 수정하면 됨!!!!!!!! -->
+  <section id="article">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">01 · Article</div>
+        <div class="sec-head-ko">아티클</div>
+      </div>
+    </div>
+
+  <div class="article-card fade-up d1">
+    <div class="article-content-wrapper">
+      <div class="article-meta-bar">
+        <span class="a-meta-tag">VOL.26-2</span>
+        <span class="a-meta-sep">·</span>
+        <span class="a-meta-cat">Brand Insight</span>
+      </div>
+
+      <h2 class="article-title">이름에 담긴 산지의 무게:<br>우리가 커피의 이름을 길게 부르게 된 이유</h2>
+      
+      <p class="article-lead">
+        최근 매장에 비치된 원두 봉투와 메뉴판을 보며 글자가 부쩍 많아졌다고 느꼈을 것이다. 부르기에도, 외우기에도 다소 벅찬 이 긴 이름들은 단순한 정보의 나열이 아니다. 산지의 붉은 토양에서부터 고객의 컵에 이르기까지, 커피 한 잔이 품고 있는 수많은 연결고리를 온전히 전달하기 위한 우리의 새로운 약속이다.
+      </p>
+
+      <p class="article-text">
+        과거 우리가 사용했던 커피의 이름들은 직관적이었으나 다소 파편화되어 있었다. '르완다 저스틴', '에티오피아 시다모 하마쇼', '콜롬비아 핑크 부르봉'처럼 국가명 뒤에 생산자, 지역, 농장 혹은 품종 중 하나가 불규칙하게 따라붙었다. 
+      </p>
+
+      <div class="comparison-section">
+        <div class="comparison-card">
+          <div class="c-title">BEFORE</div>
+          <div class="c-desc">
+            <strong>직관성 중심의 혼재된 네이밍</strong><br>
+            네이밍 규칙이 통일되지 않아, 국가명 뒤에 붙는 정보가 커피마다 달라 산지의 세부 정보를 파악하기 어려웠다.
+          </div>
+        </div>
+        <div class="comparison-card" style="background:#FEF7E0; border-color:#FCE8B2;">
+          <div class="c-title">AFTER</div>
+          <div class="c-desc">
+            <strong>산지 철학을 담은 체계적 네이밍</strong><br>
+            길어지더라도 모든 커피에 '산지/지역/생산자 + 품종/가공 방식'을 일관되게 표기하여 커피의 이력을 투명하게 전달한다.
+          </div>
+        </div>
+      </div>
+
+      <p class="article-text">
+        하지만 테라로사(TERAROSA)의 본질은 '커피가 잘 자라는 붉은 토양'이라는 이름의 어원처럼 언제나 '산지(Origin)'에 있다. <strong>"From the origin to the cup"</strong>이라는 우리의 산지 중심 철학을 구현하기 위해, 우리는 다소 무리가 따르더라도 생두에 대한 상세한 정보를 통일화하기로 결정했다.
+      </p>
+
+      <div class="quote-box">
+        <div class="quote-text">
+          "변하지 않는 것은, 커피로 연결된 마음"
+        </div>
+        <div class="quote-caption">2026 'The Power of Coffee' 캠페인 메시지 중</div>
+      </div>
+
+      <p class="article-text">
+        올해 4월부터 시작한 캠페인의 메시지처럼, 이번 네이밍 개편은 산지의 농부부터 바에서 커피를 내리는 바리스타, 그리고 소비자까지 커피 체인에 존재하는 모두가 연결되어 있음을 알리기 위함이기도 하다. 
+      </p>
+
+     <p class="article-text" style="margin-top: 40px;">
+  <strong>고객이 정의하는 스페셜티 커피의 기준</strong><br>
+  이러한 변화는 소비자들의 높아진 눈높이와도 맞닿아 있다. 마케팅 본부를 통해 공유된 소비자 조사 전문 기관의 '2026 테라로사 리빌딩 소비자 조사 보고서'에 따르면, 고객이 생각하는 스페셜티 커피 매장의 기준은 명확했다.
+</p>
+
+      <div class="simple-list-box">
+        <div class="simple-list-item">
+          <div class="s-label">응답자의 52%</div>
+          <div class="s-value">"메뉴 및 원두 카드 등에서 커피 정보를 명확하게 제공하는 곳"</div>
+        </div>
+        <div class="simple-list-item">
+          <div class="s-label">응답자의 46%</div>
+          <div class="s-value">"바리스타가 커피의 원두/산지/프로세싱에 대해 상세히 설명해주는 곳"</div>
+        </div>
+      </div>
+
+      <p class="article-text" style="margin-top: 10px;">
+        고객은 이미 커피 한 잔 뒤에 숨겨진 서사와 상세한 정보를 원하고 있다. 우리의 바리스타들이 보다 상세하고 일관된 정보를 바탕으로 고객과 소통해야 하는 중요한 시점이다.
+      </p>
+
+      <div class="data-section-title">New Naming Rule : 테라로사 네이밍 규칙</div>
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th style="width: 20%">구분</th>
+              <th style="width: 40%">구성 요소</th>
+              <th style="width: 40%">적용 예시</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="country-cell">Head Title</td>
+              <td>산지 (Origin) / 지역 (Region) / 생산자 (Producer)</td>
+              <td>온두라스 마르칼라 마리&모이<br><span style="font-size:11px; color:#5f6368">(Honduras Marcala Mary&Moi)</span></td>
+            </tr>
+            <tr>
+              <td class="country-cell">Sub Title</td>
+              <td>품종 (Variety) / 가공 방식 (Processing)</td>
+              <td>카투아이 워시드<br><span style="font-size:11px; color:#5f6368">(Catuai Washed)</span></td>
+            </tr>
+            <tr>
+              <td class="country-cell" style="color: var(--red);">확정 제품명</td>
+              <td colspan="2" style="font-weight: 700; color: var(--black);">온두라스 마르칼라 마리&모이 카투아이 워시드</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr class="article-hr"/>
+
+      <div class="article-author">
+        <div class="author-icon">☕</div>
+        <div>
+          <div class="author-name">TERAROSA 교육서비스팀</div>
+          <div class="author-role">Updated May 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- 이게 섹션 사이사이에 있는 선 -->
+  <hr class="sec-divider" />
+
+ <!-- 이 부분이 교육리포트입니다. 상세 숫자 및 내용은 js 파일로 수정합니다 -->
+
+  <section id="report">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">02 · Education Report</div>
+        <div class="sec-head-ko">교육 리포트</div>
+      </div>
+    </div>
+    <div class="report-intro fade-up d1">2026 JAN~APR · 5개 과정</div>
+
+
+<div class="stat-grid" id="statGrid"></div>
+
+<div class="summary-row">
+  <div class="summary-label">2026 JAN~APR TOTAL COMPLETIONS</div>
+  <div class="summary-total">총 255명 수료 <small>점장/세컨 교육 수료자 61인 포함</small></div>
+</div>
+
+
+  </section>
+
+  <hr class="sec-divider" />
+
+  <!-- 3. 이 부분이 캘린더입니다. 구글 캘린더만 수정하면 됩니다. -->
+
+  <section id="calendar">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">03 · Education Calendar (Upcoming Events)</div>
+        <div class="sec-head-ko">교육 캘린더</div>
+      </div>
+    </div>
+
+<!-- 첫 화면에 띄울 월을 바꾸고 싶으면 여기서 dates=뒷부분의 일/월을 바꾸면 됩니다. -->
+<div class="cal-frame">
+  <iframe id="calIframe"
+    src="https://calendar.google.com/calendar/embed?src=terarosaeducation%40gmail.com&ctz=Asia%2FSeoul&mode=MONTH&dates=20260501%2F20260531"
+    title="TERAROSA 교육 캘린더"
+    frameborder="0"
+    scrolling="no"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+  </section>
+
+</main>
+
+<!-- TOP 버튼 둥둥 띄운 것 -->
+<button class="top-btn" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="맨 위로">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+  <span>TOP</span>
+</button>
+
+<!-- 바닥 부분 -->
+
+<footer class="footer">
+  <img class="footer-logo" src="../img/logo.png" alt="TERAROSA" />
+  <div class="footer-text">
+    교육&서비스 소식지 · VOL.26-2<br/>
+    © 2026 TERAROSA Education Service Team
+  </div>
+</footer>
+
+<script src="26_2.js"></script>
+</body>
+</html>
