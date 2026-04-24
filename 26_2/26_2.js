@@ -3,10 +3,10 @@
   // 커핑 초급 교육은 26년 커핑 초급 대상자 인원입니다.
   // 점장/세컨 교육은 인원 대신 횟수로 적었습니다.
   const courses = [
-  { name: '신규 입사자 입문 교육', count: 60,  max: 200, unit: '명' },
-  { name: '커피 베리에이션 교육', count: 40,  max: 200, unit: '명' },
-  { name: '브루잉 교육',          count: 19,  max: 200, unit: '명' },
-  { name: '커핑 초급 교육',       count: 26,  max: 160, unit: '명' },
+  { name: '신규 입사자 입문 교육', count: 64,  max: 200, unit: '명' },
+  { name: '커피 베리에이션 교육', count: 51,  max: 200, unit: '명' },
+  { name: '브루잉 교육',          count: 28,  max: 200, unit: '명' },
+  { name: '커핑 초급 교육',       count: 51,  max: 160, unit: '명' },
   { name: '점장/세컨 교육',       count: 5,  max: 13,  unit: '회' },
 ];
 
