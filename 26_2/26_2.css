@@ -12,7 +12,7 @@
       --gray-800:   #2A2A2A;
       --black:      #111111;
       --white:      #FFFFFF;
-    }
+        }
 
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -714,4 +714,385 @@ section {
   .section    { break-inside: avoid; }
   /* 특정 요소 앞에서 강제로 새 페이지 시작 */
   .page-break { break-before: page; }
+}
+
+
+/* ─────────────────────────────────────────
+   VOL.26-2 아티클 추가 스타일
+   기존 CSS 하단에 붙여넣기
+───────────────────────────────────────── */
+
+/* 아티클 제목 부제 */
+.article-title-sub {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-600, #5F6368);
+  font-family: 'Pretendard', sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+}
+
+/* ─── 네이밍 비교 섹션 ─── */
+.naming-compare-section {
+  margin: 40px 0;
+  border: 1px solid var(--gray-200, #E8EAED);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.naming-compare-label {
+  background: var(--black, #202124);
+  color: #fff;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+.naming-compare-grid {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.naming-compare-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 28px 24px;
+}
+
+.naming-before {
+  background: #F8F9FA;
+  border-right: 1px solid var(--gray-200, #E8EAED);
+}
+
+.naming-after {
+  background: #FFFBF0;
+}
+
+.naming-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  font-size: 22px;
+  color: var(--red, #C3171E);
+  font-weight: 700;
+  background: #fff;
+  border-right: 1px solid var(--gray-200, #E8EAED);
+  flex-shrink: 0;
+}
+
+.nc-badge {
+  display: inline-block;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 3px 10px;
+  background: var(--gray-200, #E8EAED);
+  color: var(--gray-600, #5F6368);
+  margin-bottom: 16px;
+}
+
+.nc-badge-after {
+  background: var(--red, #C3171E);
+  color: #fff;
+}
+
+.nc-examples {
+  margin-bottom: 16px;
+}
+
+.nc-example-item {
+  font-size: 14px;
+  color: #3C4043;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--gray-200, #E8EAED);
+  font-family: 'Noto Serif KR', serif;
+}
+
+.nc-example-item:last-child {
+  border-bottom: none;
+}
+
+.nc-desc {
+  font-size: 12px;
+  color: var(--gray-600, #5F6368);
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.nc-muted {
+  color: var(--gray-400, #9AA0A6);
+}
+
+.nc-example-structured {
+  margin-bottom: 16px;
+}
+
+.nc-structure-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #E8EAED;
+  font-size: 13px;
+}
+
+.nc-structure-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--red, #C3171E);
+  width: 36px;
+  flex-shrink: 0;
+}
+
+.nc-structure-val {
+  color: #3C4043;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+}
+
+.nc-structure-example {
+  margin-top: 14px;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--black, #202124);
+  line-height: 1.5;
+}
+
+.nc-structure-sub {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-600, #5F6368);
+  margin-top: 4px;
+}
+
+/* ─── 소비자 조사 바 차트 ─── */
+.survey-section {
+  margin: 40px 0;
+  background: #F8F9FA;
+  border: 1px solid var(--gray-200, #E8EAED);
+  border-radius: 8px;
+  padding: 28px 28px 20px;
+}
+
+.survey-section-label {
+  font-family: 'Pretendard', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--black, #202124);
+  margin-bottom: 6px;
+}
+
+.survey-caption {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--gray-400, #9AA0A6);
+  margin-bottom: 24px;
+}
+
+.survey-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.survey-bar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.survey-bar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.survey-bar-desc {
+  font-size: 13px;
+  color: #3C4043;
+  line-height: 1.5;
+}
+
+.survey-bar-pct {
+  font-family: 'DM Mono', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--red, #C3171E);
+  flex-shrink: 0;
+}
+
+.survey-bar-bg {
+  height: 8px;
+  background: var(--gray-200, #E8EAED);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.survey-bar-fill {
+  height: 100%;
+  background: var(--red, #C3171E);
+  border-radius: 4px;
+  transition: width 1.3s cubic-bezier(.16,1,.3,1);
+}
+
+.survey-footnote {
+  font-size: 11px;
+  color: var(--gray-400, #9AA0A6);
+  margin-top: 16px;
+}
+
+/* ─── 네이밍 구조 요약 박스 ─── */
+.naming-summary-box {
+  margin: 40px 0;
+  border: 2px solid var(--black, #202124);
+  padding: 28px 28px 24px;
+}
+
+.nsb-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: var(--gray-400, #9AA0A6);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.nsb-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.nsb-cell {
+  flex: 1;
+  min-width: 180px;
+  padding: 20px;
+}
+
+.nsb-head {
+  background: var(--black, #202124);
+}
+
+.nsb-sub {
+  background: #F8F9FA;
+  border: 1px solid var(--gray-200, #E8EAED);
+}
+
+.nsb-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--gray-400, #9AA0A6);
+  flex-shrink: 0;
+}
+
+.nsb-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.nsb-head .nsb-label { color: rgba(255,255,255,0.5); }
+.nsb-sub .nsb-label { color: var(--gray-400, #9AA0A6); }
+
+.nsb-formula {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.nsb-head .nsb-formula { color: #fff; }
+.nsb-sub .nsb-formula { color: var(--black, #202124); }
+
+.nsb-slash {
+  color: var(--red, #C3171E);
+  margin: 0 4px;
+}
+
+.nsb-example-ko {
+  font-size: 12px;
+}
+
+.nsb-head .nsb-example-ko { color: rgba(255,255,255,0.6); }
+.nsb-sub .nsb-example-ko { color: var(--gray-600, #5F6368); }
+
+.nsb-divider {
+  border: none;
+  border-top: 1px solid var(--gray-200, #E8EAED);
+  margin: 4px 0 20px;
+}
+
+.nsb-result-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--red, #C3171E);
+  margin-bottom: 10px;
+}
+
+.nsb-result {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.nsb-result-main {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--black, #202124);
+}
+
+.nsb-result-sub {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-600, #5F6368);
+}
+
+.nsb-result-en {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--gray-400, #9AA0A6);
+  letter-spacing: 1px;
+}
+
+/* ─── 모바일 대응 ─── */
+@media (max-width: 680px) {
+  .naming-arrow {
+    display: none;
+  }
+  .naming-before {
+    border-right: none;
+    border-bottom: 1px solid var(--gray-200, #E8EAED);
+  }
+  .nsb-row {
+    flex-direction: column;
+  }
+  .nsb-plus {
+    padding: 8px 0;
+    font-size: 18px;
+  }
+  .survey-bar-desc {
+    font-size: 12px;
+  }
 }
