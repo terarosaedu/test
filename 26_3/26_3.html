@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TERAROSA 교육 & 서비스 소식지 [26년-2]</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"/>
+<link rel="stylesheet" href="26_2.css">
+
+  
+</head>
+<body>
+
+  <!-- 최상단 로고랑 제목 있는 부분 -->
+<header class="header-wrap">
+  <div class="header-top">
+  <button class="archive-btn" onclick="toggleArchive()">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+  소식지 목록
+</button>
+    <div class="archive-panel" id="archivePanel">
+  <div class="archive-panel-title">Archive</div>
+  
+  <div class="archive-item" onclick="scrollToTop()" style="cursor: pointer;">
+    <span class="a-dot"></span>
+    VOL. 26-2
+  </div>
+
+  <div class="archive-item" onclick="location.href='../26_1/26_1.html'" style="cursor: pointer;">
+    <span class="a-dot" style="background-color: transparent; border: 1px solid #ccc;"></span>
+    VOL. 26-1
+  </div>
+</div>
+ <img class="logo-img" src="../img/logo.png" alt="TERAROSA" />
+        <div class="header-right">
+      <div class="issue">VOL. 26-2</div>
+      <div class="date">2026 V2 · 교육서비스팀</div>
+    </div>
+  </div>
+  <div class="header-title-band">
+    <h1>교육 & 서비스 소식지</h1>
+    <p>EDUCATION & SERVICE NEWSLETTER · 2026 MAR-APR</p>
+  </div>
+</header>
+
+<!-- 메뉴바 -->
+
+<nav class="nav-bar">
+  <div class="nav-item active" onclick="scrollToSection('article', this)">아티클</div>
+  <div class="nav-item" onclick="scrollToSection('report', this)">교육 리포트</div>
+  <div class="nav-item" onclick="scrollToSection('calendar', this)">교육 캘린더</div>
+</nav>
+
+<!-- 내용 있는 부분 -->
+
+<main class="main">
+
+  <section id="article">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">01 · Article</div>
+        <div class="sec-head-ko">아티클</div>
+      </div>
+    </div>
+
+  <div class="article-card fade-up d1">
+
+  <div class="article-content-wrapper">
+    <div class="article-meta-bar">
+      <span class="a-meta-tag">VOL.26-2</span>
+      <span class="a-meta-sep">·</span>
+      <span class="a-meta-cat">Key Insight</span>
+    </div>
+
+    <h2 class="article-title">고객 중심 서비스는 ‘친절’이 아니라 운영 방식입니다<br><span class="article-title-sub">테라로사 현장 서비스 커뮤니케이션의 핵심 가치</span></h2>
+    
+    <p class="article-lead">
+      완벽하게 로스팅되고 추출된 커피 한 잔도 중요하지만, 고객이 매장에 들어오는 순간부터 주문, 제품 수령, 공간 이용, 퇴점까지 모든 경험이 하나의 서비스다. 우리가 매일 서 있는 현장에서 고객 중심의 사고가 왜 막연한 '친절'이 아닌 단단한 '운영 방식'이 되어야 하는지 되짚어본다.
+    </p>
+
+    <div class="quote-box">
+      <div class="quote-text">
+        "고객은 '무엇을 마셨는가'보다 '어떤 경험을 했는가'를 기억합니다.<br>좋은 서비스는 매일 반복되는 작은 행동의 일관성에서 만들어집니다."
+      </div>
+      <div class="quote-caption">고객 중심 운영 개선의 첫걸음 · TERAROSA</div>
+    </div>
+
+    <p class="article-text">
+      매장에는 늘 다양한 변수가 존재한다. 직원에게는 매일 반복되는 익숙한 업무와 동선이지만, 어떤 고객에게는 메뉴도, 픽업 방식도, 매장 구조도 처음 겪는 낯선 경험일 수 있다. '우리 기준'의 익숙함 때문에 놓치는 순간들 속에서 때로는 작은 불편이 큰 불만으로 이어지기도 한다. 고객 중심 운영은 무조건 고객에게 맞춘다는 의미가 아니다. 철저히 ‘고객 입장에서 어떻게 느껴질까’를 먼저 생각하는 운영 방식이다.
+    </p>
+
+    <p class="article-text">
+      단순히 밝게 인사하는 것만으로는 충분하지 않다. 기기 고장, 위생 이슈, 대기 지연 등 예기치 못한 돌발 상황(Unexpected Situations)이 발생했을 때, 상황을 통제하기보다 문제 발생을 숨기지 않고 신속하고 투명하게 대응하는 것. 기다림이 발생하면 이유를 먼저 설명하여 고객이 '배려받았다'고 느끼게 만드는 것. 이것이 거창한 기술보다 중요한 서비스의 기본이다.
+    </p>
+
+    <div class="naming-compare-section">
+      <div class="naming-compare-label">현장 서비스 커뮤니케이션, 이렇게 달라집니다</div>
+      <div class="naming-compare-grid">
+        <div class="naming-compare-card naming-before">
+          <div class="nc-badge">BEFORE</div>
+          <div class="nc-examples">
+            <div class="nc-example-item">우리 기준의 익숙한 매장 운영</div>
+            <div class="nc-example-item">클레임 발생 시 일시적인 무마</div>
+            <div class="nc-example-item">규정과 매뉴얼의 일방적 전달</div>
+          </div>
+          <div class="nc-desc">친절에 의존하는 응대<br><span class="nc-muted">(운영자 시점)</span></div>
+        </div>
+        <div class="naming-arrow">→</div>
+        <div class="naming-compare-card naming-after">
+          <div class="nc-badge nc-badge-after">AFTER</div>
+          <div class="nc-example-structured">
+            <div class="nc-structure-row">
+              <span class="nc-structure-label">Step 1</span>
+              <span class="nc-structure-val">고객 관점의 시선 (사전 안내 및 배려)</span>
+            </div>
+            <div class="nc-structure-row">
+              <span class="nc-structure-label">Step 2</span>
+              <span class="nc-structure-val">문제 발생 시 신속하고 투명한 소통</span>
+            </div>
+            <div class="nc-structure-example">
+              현장 즉시 적용 및<br>
+              <span class="nc-structure-sub">지속적인 4단계 사후 점검 프로세스</span>
+            </div>
+          </div>
+          <div class="nc-desc">관점의 전환 → 선제적 안내 → 투명한 대처<br><span class="nc-muted">(고객 중심의 체계적 운영)</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="article-text" style="margin-top: 40px;">
+      특히 컴플레인 상황에서의 대처는 브랜드의 신뢰를 좌우한다. 고객은 항상 완벽한 결과만 바라는 것이 아니다. 문제가 발생했을 때 '어떻게 대응받았는가'를 훨씬 더 중요하게 생각한다. 같은 상황이어도 대응 방식에 따라 고객 경험은 완전히 달라질 수 있다.
+    </p>
+
+    <p class="article-text">
+      우리가 정기적인 미스터리 쇼핑을 통해 현장을 점검하고, 즉각적인 조치부터 사후 관리까지 이어지는 개선 프로세스를 현장에 고집하는 이유도 여기에 있다. 고객을 이해하려는 시선이 있는 팀은 운영이 안정적이고, 현장의 분위기도 달라진다. 그리고 그 경험들이 쌓여 테라로사라는 브랜드의 이미지가 된다.
+    </p>
+
+    <div class="survey-section">
+      <div class="survey-section-label">고객이 기억하는 '신뢰할 수 있는 브랜드 경험'이란?</div>
+      <div class="survey-caption">2026 테라로사 현장 서비스 피드백 종합 (교육서비스팀)</div>
+      <div class="survey-bars">
+        <div class="survey-bar-item">
+          <div class="survey-bar-top">
+            <span class="survey-bar-desc">"기다림이나 문제가 발생했을 때, 숨기지 않고 이유를 명확히 설명하며 먼저 배려해 주었을 때"</span>
+            <span class="survey-bar-pct">61%</span>
+          </div>
+          <div class="survey-bar-bg">
+            <div class="survey-bar-fill" style="width: 61%;"></div>
+          </div>
+        </div>
+        <div class="survey-bar-item">
+          <div class="survey-bar-top">
+            <span class="survey-bar-desc">"나의 작은 불편함(처음 방문, 낯선 메뉴 등)을 알아채고 바리스타가 선제적으로 안내해 주었을 때"</span>
+            <span class="survey-bar-pct">39%</span>
+          </div>
+          <div class="survey-bar-bg">
+            <div class="survey-bar-fill" style="width: 39%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="survey-footnote">※ 현장 방문 고객 긍정 경험 설문 중 발췌</div>
+    </div>
+
+    <p class="article-text" style="margin-top: 40px;">
+      결국 서비스는 매뉴얼 이전에 '관점'의 문제다. 바리스타부터 점장에 이르기까지, 직원에게는 단지 한 번의 근무 시간일지 몰라도 고객에게는 그날 하루의 특별한 순간일 수 있음을 기억해야 한다. 
+    </p>
+
+    <div class="naming-summary-box">
+      <div class="nsb-title">고객 중심 서비스 커뮤니케이션 한눈에 보기</div>
+      <div class="nsb-row">
+        <div class="nsb-cell nsb-head">
+          <div class="nsb-label">BASIC MINDSET</div>
+          <div class="nsb-formula">Perspective <span class="nsb-slash">/</span> Proactive</div>
+          <div class="nsb-example-ko">고객의 관점 · 선제적 안내</div>
+        </div>
+        <div class="nsb-plus">+</div>
+        <div class="nsb-cell nsb-sub">
+          <div class="nsb-label">ACTION PLAN</div>
+          <div class="nsb-formula">Transparent <span class="nsb-slash">/</span> Consistent</div>
+          <div class="nsb-example-ko">투명한 대처 · 일관된 운영</div>
+        </div>
+      </div>
+      <div class="nsb-divider"></div>
+      <div class="nsb-result-label">현장 서비스의 지향점</div>
+      <div class="nsb-result">
+        <span class="nsb-result-main">"오늘도 고객 입장에서 한 번 더 생각하는 운영이"</span>
+        <span class="nsb-result-sub">테라로사의 완벽한 경험을 완성합니다.</span>
+      </div>
+      <div class="nsb-result-en">Service is an Operational Strategy, Not Just Kindness</div>
+    </div>
+
+    <hr class="article-hr"/>
+
+    <div class="article-author">
+      <div class="author-icon">☕</div>
+      <div>
+        <div class="author-name">TERAROSA 교육서비스팀</div>
+        <div class="author-role">Updated June 2026</div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="sec-divider" />
+
+ <!-- 이 부분이 교육리포트입니다. 상세 숫자 및 내용은 js 파일로 수정합니다 -->
+
+  <section id="report">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">02 · Education Report</div>
+        <div class="sec-head-ko">교육 리포트</div>
+      </div>
+    </div>
+    <div class="report-intro fade-up d1">2026 JAN~APR · 5개 과정</div>
+
+
+<div class="stat-grid" id="statGrid"></div>
+
+<div class="summary-row">
+  <div class="summary-label">2026 JAN~APR TOTAL COMPLETIONS</div>
+  <div class="summary-total">총 281명 수료 <small>점장/세컨 교육 수료자 61인 포함</small></div>
+</div>
+
+
+  </section>
+
+  <hr class="sec-divider" />
+
+  <!-- 3. 이 부분이 캘린더입니다. 구글 캘린더만 수정하면 됩니다. -->
+
+  <section id="calendar">
+    <div class="sec-head fade-up">
+      <div class="sec-head-bar"></div>
+      <div class="sec-head-inner">
+        <div class="sec-head-en">03 · Education Calendar (Upcoming Events)</div>
+        <div class="sec-head-ko">교육 캘린더</div>
+      </div>
+    </div>
+
+<!-- 첫 화면에 띄울 월을 바꾸고 싶으면 여기서 dates=뒷부분의 일/월을 바꾸면 됩니다. -->
+<div class="cal-frame">
+  <iframe id="calIframe"
+    src="https://calendar.google.com/calendar/embed?src=terarosaeducation%40gmail.com&ctz=Asia%2FSeoul&mode=MONTH&dates=20260501%2F20260531"
+    title="TERAROSA 교육 캘린더"
+    frameborder="0"
+    scrolling="no"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+  </section>
+
+</main>
+
+<!-- TOP 버튼 둥둥 띄운 것 -->
+<button class="top-btn" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="맨 위로">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+  <span>TOP</span>
+</button>
+
+<!-- 바닥 부분 -->
+
+<footer class="footer">
+  <img class="footer-logo" src="../img/logo.png" alt="TERAROSA" />
+  <div class="footer-text">
+    교육&서비스 소식지 · VOL.26-2<br/>
+    © 2026 TERAROSA Education Service Team
+  </div>
+</footer>
+
+<script src="26_2.js"></script>
+</body>
+</html>
