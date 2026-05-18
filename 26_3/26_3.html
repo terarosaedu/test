@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TERAROSA 교육 & 서비스 소식지 [26년-2]</title>
+  <title>TERAROSA 교육 & 서비스 소식지 [26년-3]</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"/>
-<link rel="stylesheet" href="26_2.css">
-
+<link rel="stylesheet" href="26_3.css">
   
 </head>
 <body>
 
-  <!-- 최상단 로고랑 제목 있는 부분 -->
-<header class="header-wrap">
+  <header class="header-wrap">
   <div class="header-top">
   <button class="archive-btn" onclick="toggleArchive()">
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
@@ -24,6 +22,11 @@
   
   <div class="archive-item" onclick="scrollToTop()" style="cursor: pointer;">
     <span class="a-dot"></span>
+    VOL. 26-3
+  </div>
+
+  <div class="archive-item" onclick="location.href='../26_2/26_2.html'" style="cursor: pointer;">
+    <span class="a-dot" style="background-color: transparent; border: 1px solid #ccc;"></span>
     VOL. 26-2
   </div>
 
@@ -34,25 +37,21 @@
 </div>
  <img class="logo-img" src="../img/logo.png" alt="TERAROSA" />
         <div class="header-right">
-      <div class="issue">VOL. 26-2</div>
-      <div class="date">2026 V2 · 교육서비스팀</div>
+      <div class="issue">VOL. 26-3</div>
+      <div class="date">2026 V3 · 교육서비스팀</div>
     </div>
   </div>
   <div class="header-title-band">
     <h1>교육 & 서비스 소식지</h1>
-    <p>EDUCATION & SERVICE NEWSLETTER · 2026 MAR-APR</p>
+    <p>EDUCATION & SERVICE NEWSLETTER · 2026 JUN</p>
   </div>
 </header>
-
-<!-- 메뉴바 -->
 
 <nav class="nav-bar">
   <div class="nav-item active" onclick="scrollToSection('article', this)">아티클</div>
   <div class="nav-item" onclick="scrollToSection('report', this)">교육 리포트</div>
   <div class="nav-item" onclick="scrollToSection('calendar', this)">교육 캘린더</div>
 </nav>
-
-<!-- 내용 있는 부분 -->
 
 <main class="main">
 
@@ -69,9 +68,9 @@
 
   <div class="article-content-wrapper">
     <div class="article-meta-bar">
-      <span class="a-meta-tag">VOL.26-2</span>
+      <span class="a-meta-tag">VOL.26-3</span>
       <span class="a-meta-sep">·</span>
-      <span class="a-meta-cat">Key Insight</span>
+      <span class="a-meta-cat">Service Insight</span>
     </div>
 
     <h2 class="article-title">고객 중심 서비스는 ‘친절’이 아니라 운영 방식입니다<br><span class="article-title-sub">테라로사 현장 서비스 커뮤니케이션의 핵심 가치</span></h2>
@@ -92,7 +91,7 @@
     </p>
 
     <p class="article-text">
-      단순히 밝게 인사하는 것만으로는 충분하지 않다. 설비 고장, 위생 이슈, 대기 지연 등 예기치 못한 돌발 상황(Unexpected Situations)이 발생했을 때, 상황을 통제하기보다 문제 발생을 숨기지 않고 신속하고 투명하게 대응하는 것. 기다림이 발생하면 이유를 먼저 설명하여 고객이 '배려받았다'고 느끼게 만드는 것. 이것이 거창한 기술보다 중요한 서비스의 기본이다.
+      단순히 밝게 인사하는 것만으로는 충분하지 않다. 기기 고장, 위생 이슈, 대기 지연 등 예기치 못한 돌발 상황(Unexpected Situations)이 발생했을 때, 상황을 통제하기보다 문제 발생을 숨기지 않고 신속하고 투명하게 대응하는 것. 기다림이 발생하면 이유를 먼저 설명하여 고객이 '배려받았다'고 느끼게 만드는 것. 이것이 거창한 기술보다 중요한 서비스의 기본이다.
     </p>
 
     <div class="naming-compare-section">
@@ -200,14 +199,14 @@
         <div class="author-role">Updated June 2026</div>
       </div>
     </div>
+  </div>
+</div>
 
   </section>
 
   <hr class="sec-divider" />
 
- <!-- 이 부분이 교육리포트입니다. 상세 숫자 및 내용은 js 파일로 수정합니다 -->
-
-  <section id="report">
+ <section id="report">
     <div class="sec-head fade-up">
       <div class="sec-head-bar"></div>
       <div class="sec-head-inner">
@@ -215,22 +214,19 @@
         <div class="sec-head-ko">교육 리포트</div>
       </div>
     </div>
-    <div class="report-intro fade-up d1">2026 JAN~APR · 5개 과정</div>
-
+    <div class="report-intro fade-up d1">2026 MAY~JUN · 교육 과정 현황</div>
 
 <div class="stat-grid" id="statGrid"></div>
 
 <div class="summary-row">
-  <div class="summary-label">2026 JAN~APR TOTAL COMPLETIONS</div>
-  <div class="summary-total">총 281명 수료 <small>점장/세컨 교육 수료자 61인 포함</small></div>
+  <div class="summary-label">2026 MAY~JUN TOTAL COMPLETIONS</div>
+  <div class="summary-total">수료자 집계 중... <small>상세 데이터는 업데이트 예정입니다.</small></div>
 </div>
 
 
   </section>
 
   <hr class="sec-divider" />
-
-  <!-- 3. 이 부분이 캘린더입니다. 구글 캘린더만 수정하면 됩니다. -->
 
   <section id="calendar">
     <div class="sec-head fade-up">
@@ -241,10 +237,9 @@
       </div>
     </div>
 
-<!-- 첫 화면에 띄울 월을 바꾸고 싶으면 여기서 dates=뒷부분의 일/월을 바꾸면 됩니다. -->
 <div class="cal-frame">
   <iframe id="calIframe"
-    src="https://calendar.google.com/calendar/embed?src=terarosaeducation%40gmail.com&ctz=Asia%2FSeoul&mode=MONTH&dates=20260501%2F20260531"
+    src="https://calendar.google.com/calendar/embed?src=terarosaeducation%40gmail.com&ctz=Asia%2FSeoul&mode=MONTH&dates=20260601%2F20260630"
     title="TERAROSA 교육 캘린더"
     frameborder="0"
     scrolling="no"
@@ -252,12 +247,10 @@
   </iframe>
 </div>
 
-
   </section>
 
 </main>
 
-<!-- TOP 버튼 둥둥 띄운 것 -->
 <button class="top-btn" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="맨 위로">
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
     <polyline points="18 15 12 9 6 15"/>
@@ -265,16 +258,14 @@
   <span>TOP</span>
 </button>
 
-<!-- 바닥 부분 -->
-
 <footer class="footer">
   <img class="footer-logo" src="../img/logo.png" alt="TERAROSA" />
   <div class="footer-text">
-    교육&서비스 소식지 · VOL.26-2<br/>
+    교육&서비스 소식지 · VOL.26-3<br/>
     © 2026 TERAROSA Education Service Team
   </div>
 </footer>
 
-<script src="26_2.js"></script>
+<script src="26_3.js"></script>
 </body>
 </html>
